@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Instructions = () => {
-  return <p className="instructions">Select a note.</p>;
+const Instructions = (props) => {
+  return <p className="instructions">Select a note. {console.log(props.element)}</p>;
 }
 
 export default Instructions;
